@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap');
+
+.section-title {
+    font-family: 'Sancreek', cursive;
+    color: #51170b;
+    font-size: 6vh;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+  }
+
+  .section-sub-title {
+    font-family: 'Arima', cursive;
+    color: #51170b;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.7vh;
+  }
+
+  .section-tiny-text {
+    font-family: 'Arima', cursive;
+    color: #9a3923;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5vh;
+  }
+
+  .question:hover {
+    font-size: 3.1vh;
+  }
+.section-text {
+  font-family: 'Arima', cursive;
+  color: #51170b;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.image {
+  width: auto;
+  height: 25vh;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/~wics/hopperhacks/2025/static/css/main.56d26898.css",
+    "main.js": "/~wics/hopperhacks/2025/static/js/main.d8012884.js",
+    "static/js/453.7519fad4.chunk.js": "/~wics/hopperhacks/2025/static/js/453.7519fad4.chunk.js",
+    "static/media/star.png": "/~wics/hopperhacks/2025/static/media/star.560a1c2a8e8b6990e7ce.png",
+    "static/media/paths.png": "/~wics/hopperhacks/2025/static/media/paths.412b9c36343e88403717.png",
+    "static/media/apply.png": "/~wics/hopperhacks/2025/static/media/apply.ddc95d0d62d70a054224.png",
+    "index.html": "/~wics/hopperhacks/2025/index.html",
+    "main.56d26898.css.map": "/~wics/hopperhacks/2025/static/css/main.56d26898.css.map",
+    "main.d8012884.js.map": "/~wics/hopperhacks/2025/static/js/main.d8012884.js.map",
+    "453.7519fad4.chunk.js.map": "/~wics/hopperhacks/2025/static/js/453.7519fad4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56d26898.css",
+    "static/js/main.d8012884.js"
+  ]
+}

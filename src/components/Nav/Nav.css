@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative;
+}
+  
+.logo {
+    height: 40px;
+    width: 115px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: #612011;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0;
+    padding: 10px;
+}
+
+.nav-links h1 {
+    font-family: 'Arima', cursive;
+    color: #9a3923;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.nav-links h1:hover {
+    color: #612011;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        z-index: 9999;
+        top: 100%;
+        right: 0;
+        margin-right: 25px;
+        background-color: #e78859;
+        padding: 10px;
+        border-radius: 15px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #612011;
+    }
+
+    .nav-links h1 {
+        font-family: 'Arima', cursive;
+        color: #9a3923;
+        text-decoration: none;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .nav-links h1:hover {
+        color: #612011;
+    }
+
+    .nav-links.open {
+        animation: fadeIn 0.3s forwards;
+        display: flex;
+        opacity: 1;
+    }
+
+}
+
+@keyframes 
+fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1; 
+    }
+  }
+
+
+  
+
+  
